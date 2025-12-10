@@ -1,0 +1,14 @@
+# Healthcare AI Evaluation Pipeline - Dependencies
+
+# Web framework & server
+fastapi>=0.104.0
+uvicorn[standard]>=0.24.0
+
+# HTTP client for LLM APIs (OpenAI, Gemini)
+httpx>=0.25.0
+
+# WhatsApp/SMS delivery
+twilio>=8.10.0
+
+# Data validation
+pydantic>=2.5.0
